@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 import random
 
 df = pd.read_csv("medium_data.csv")
-data = df["Math_score"].tolist()
+data = df["claps"].tolist()
 
 print("Mean of Population : ",statistics.mean(data))
 print("SD of Population : ",statistics.stdev(data))
